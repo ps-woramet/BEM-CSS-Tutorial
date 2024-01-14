@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 2rem;
+        }
+        .nav__menu-group{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+        .nav__menu-group li{
+            list-style-type: none;
+        }
+        .nav__menu-group a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .header-content{
+            border: 1px solid #000;
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+
+        .header-content__btn{
+            padding: 0.5rem;
+        }
+
+        .text--uppercase{
+            text-transform: uppercase;
+        }
+
+        .service{
+            display: flex;
+            padding: 2rem 2rem;
+            gap: 1rem;
+            background: rgb(193, 192, 192);
+        }
+
+        .service-card{
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        .portfolio{
+            padding: 2rem;
+        }
+
+        .portfolio-header{
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+
+        .portfolio-header__btn{
+            padding: 0 1rem;
+        }
+
+        .portfolio-detail{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .portfolio-card{
+            border: 1px solid gray;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <!-- Block -->
+        <nav>
+            <!-- Element -->
+            <div class="nav__logo">
+                <div>logo</div>
+            </div>
+            <!-- Element -->
+            <ul class="nav__menu-group">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+           </ul>
+        </nav>
+
+        <!-- Block -->
+        <div class="header-content">
+            <!-- Element Modiflyer -->
+            <h1 class="header-content__title text--uppercase">Good design is good business</h1>
+            <!-- Element -->
+            <p class="header-content__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, deleniti aliquam, excepturi reiciendis eaque doloremque impedit soluta sit amet qui quisquam. Magni, ipsam voluptatum repudiandae placeat dolorum mollitia totam nemo!</p>
+            <!-- Element Modiflyer -->
+            <button class="header-content__btn text--uppercase">Lean more</button>
+        </div>
+    </div>
+
+    <!-- Block -->
+    <div class="service">
+
+        <!-- Block -->
+        <div class="service-card">
+            <!-- Element -->
+            <h2 class="service-card__title">Web Design</h2>
+            <!-- Element -->
+            <p class="service-card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, provident.</p>
+        </div>
+        
+        <!-- Block -->
+        <div class="service-card">
+            <!-- Element -->
+            <h2 class="service-card__title">Search Optimization</h2>
+            <!-- Element -->
+            <p class="service-card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, provident.</p>
+        </div>
+
+        <!-- Block -->
+        <div class="service-card">
+            <!-- Element -->
+            <h2 class="service-card__title">Online Shop</h2>
+            <!-- Element -->
+            <p class="service-card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, provident.</p>
+        </div>
+
+        <!-- Block -->
+        <div class="service-card">
+            <!-- Element -->
+            <h2 class="service-card__title">Social Media</h2>
+            <!-- Element -->
+            <p class="service-card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, provident.</p>
+        </div>
+    </div>
+
+
+    <!-- Block -->
+    <div class="portfolio">
+         <!-- Block -->
+        <div class="portfolio-header">
+            <!-- Element -->
+            <h2 class="portfolio-header__title">Our PortFolio Awesome</h2>
+            <!-- Element -->
+            <button class="portfolio-header__btn">More Works</button>
+        </div>
+        <!-- Block -->
+        <div class="portfolio-detail">
+            <!-- Block -->
+            <div class="portfolio-card">
+                <!-- Element -->
+                <h1 class="portfolio-card__img">image1</h1>
+                <!-- Block -->
+                <div class="portfolio-des">
+                    <!-- Element -->
+                    <h3 class="portfolio-des__title">Des1</h3>
+                    <!-- Element -->
+                    <p class="portfolio-des__content">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Block -->
+            <div class="portfolio-card">
+                <!-- Element -->
+                <h1 class="portfolio-card__img">Image2</h1>
+                <!-- Block -->
+                <div class="portfolio-des">
+                    <!-- Element -->
+                    <h3 class="portfolio-des__title">Des2</h3>
+                    <!-- Element -->
+                    <p class="portfolio-des__content">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Block -->
+            <div class="portfolio-card">
+                <!-- Element -->
+                <h1 class="portfolio-card__img">Image3</h1>
+                <!-- Block -->
+                <div class="portfolio-des">
+                    <!-- Element -->
+                    <h3 class="portfolio-des__title">Des3</h3>
+                    <!-- Element -->
+                    <p class="portfolio-des__content">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Block -->
+    <div class="card">
+        <!-- Element -->
+        <div class="card__img">
+            <img src="" alt="">
+        </div>
+        <!-- Element -->
+        <div class="card__desc">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure a reiciendis odit laudantium accusantium necessitatibus voluptate ab. Omnis quaerat ab repellendus! Quis quibusdam id repellendus error ad eos hic.</p>
+        </div>
+        <!-- Element -->
+        <div class="card__btn-group">
+            <!-- Modifier -->
+            <button class="card__btn btn--success">View</button>
+            <button class="card__btn btn--danger">Delete</button>
+        </div>
+    </div>
+
+</body>
+</html>
